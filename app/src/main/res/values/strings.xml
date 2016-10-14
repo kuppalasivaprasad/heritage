@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Heritage</string>
+    <string name="firebase_url">https://heritage-4c428.firebaseio.com/</string>
+    <string name="powerIssue">100</string>
+    <string name="vehicleIssue">101</string>
+    <string name="resourcesIssue">102</string>
+    <string name="tankersIssue">103</string>
+    <string name="otherIssues">104</string>
+</resources>

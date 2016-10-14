@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "475999419871",
+    "firebase_url": "https://heritage-4c428.firebaseio.com",
+    "project_id": "heritage-4c428",
+    "storage_bucket": "heritage-4c428.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475999419871:android:00991f0952bcfdb0",
+        "android_client_info": {
+          "package_name": "com.onmymobile.heritage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475999419871-b5n1om7jn41ni5mr7k428p7c14251dkd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtJzEQSJ_C0AzWGnxbzkdy645IPaGP82g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

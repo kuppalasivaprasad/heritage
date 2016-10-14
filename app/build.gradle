@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.onmymobile.heritage"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 2
+        versionName "1.1"
+        multiDexEnabled true
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile files('activation.jar')
+    compile files('additionnal.jar')
+    compile files('mail.jar')
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'io.realm:realm-android:0.82.1'
+
+    compile 'com.google.code.gson:gson:1.7.1'
+
+    compile 'com.google.firebase:firebase-messaging:9.0.2'
+    compile 'com.firebase:firebase-client-android:2.3.1'
+    compile 'com.squareup.picasso:picasso:2.4.0'
+    compile 'com.google.firebase:firebase-storage:9.0.2'
+    compile 'com.google.firebase:firebase-auth:9.0.2'
+
+
+    compile 'com.google.firebase:firebase-core:9.0.2'
+    compile 'com.google.firebase:firebase-database:9.0.2'
+    compile 'com.google.firebase:firebase-crash:9.0.2'
+    compile 'com.google.firebase:firebase-config:9.0.2'
+    compile 'com.google.firebase:firebase-invites:9.0.2'
+    compile 'com.google.firebase:firebase-ads:9.0.2'
+    compile 'com.google.android.gms:play-services-appindexing:9.0.2'
+
+
+}
+apply plugin: 'com.google.gms.google-services'
